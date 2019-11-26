@@ -1,0 +1,12 @@
+public class Main
+{
+	public static void main(String[] args) {
+	 { 
+        String str = "How now Mrs Brown Cow"; 
+        String[] arOfStr = str.split(" "); 
+  
+        for (String v : arOfStr) 
+            System.out.println(v); 
+    } 
+	}
+}
