@@ -1,0 +1,12 @@
+public class Main
+{
+	public static void main(String[] args) {
+	 
+        String str = "How now Mrs Brown Cow"; 
+        String[] arrOfStr = str.split(" ' ', ' ', ' ', ' ' ,' '"); 
+  
+        for (String a : arrOfStr) 
+            System.out.println(a); 
+    
+	}
+}
